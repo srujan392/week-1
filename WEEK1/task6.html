@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outerdiv{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 50px;
+            margin: 30px;
+            gap:10px;
+            background-color: rgb(141, 46, 46);
+            color: azure;
+
+
+        }
+
+        .firstDiv{
+            
+            text-align: justify;
+        }
+        .secondDiv{
+            display: grid;
+            grid-template-rows:repeat(4, 35px) ;
+            grid-template-columns:repeat(3, 1fr) ;
+        }
+
+        .imageSize{
+            display: flex;
+          
+        }
+
+        .imageSize img{
+            width: 30px;
+            height: auto;
+            margin-right: 3px;
+        }
+        .allignment{
+            align-items:center;
+            text-align: left;
+            display: flex;
+            height: 100%;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: black;">
+    <div class="outerdiv">
+        <div class="firstDiv">
+            <h1>
+                Code in any language
+            </h1>
+            <p style="margin: 10px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, molestiae, 
+            temporibus voluptatum quod similique exercitationem saepe nobis quibusdam inventore
+             dicta esse, neque placeat omnis nihil ipsa facilis. Repudiandae, ipsam unde.
+            </p>
+           
+
+        </div>
+        <div class="secondDiv">
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-js.png" alt="Javascript">
+                <code class="allignment">javaascript</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-ts.png" alt="TypeScript">
+                <code class="allignment">TypeScript</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-python.png" alt="Python">
+                <code class="allignment">python</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-cs.png" alt="C#">
+                <code class="allignment">C#</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-cpp.png" alt="C++">
+                <code class="allignment">C++</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-html.png" alt="HTML">
+                <code class="allignment">HTML</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-java.png" alt="Java">
+                <code class="allignment">Java</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-json.png" alt="JSON">
+                <code class="allignment">JSON</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-php.png" alt="PHP">
+                <code class="allignment">PHP</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-markdown.png" alt="Markdown">
+                <code class="allignment">Markdown</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-powershell.png" alt="Powershell">
+                <code class="allignment">Powershell</code>
+            </div>
+            <div class="imageSize">
+                <img src="https://code.visualstudio.com/assets/home/language-yaml.png" alt="YAML">
+                <code class="allignment">YAML</code>
+            </div class="imageSize">
+        </div>
+    </div>
+</body>
+</html>
